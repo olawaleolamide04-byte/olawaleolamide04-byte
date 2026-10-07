@@ -12,5 +12,8 @@ print("Welcome to our mini RSP game!!!")
 while True:
     my_choice = input("Put in your choice in this list" + str(game_choices))
     computer_choice = random.choices(game_choices)
+    print(type(computer_choice), computer_choice)
+    computer_choice = computer_choice
+    print(type(computer_choice), computer_choice)
 
     print("You played" + "my_choice" + )
